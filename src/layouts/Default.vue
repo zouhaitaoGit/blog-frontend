@@ -33,7 +33,7 @@
                     </el-menu>
                 </el-col>
                 <el-col :span="8" style="text-align: center;padding: 12px 0px 0px 10px">
-                    <el-row>
+                    <!-- <el-row>
                         <el-col :span="4">
                             <el-popover placement="top" trigger="hover">
                                 <div style="text-align: center">
@@ -52,14 +52,14 @@
                         <el-col :span="6" style="padding: 9px 0px 0px 10px;color:#909399;font-size: 13px">
                             {{$util.formatTime(music.currentTime)}}/{{$util.formatTime(music.maxTime)}}
                         </el-col>
-                    </el-row>
+                    </el-row> -->
 
-                    <audio ref="music" loop autoplay v-if="audioAutoPlay">
+                    <!-- <audio ref="music" loop autoplay v-if="audioAutoPlay">
                         <source :src="audioUrl" type="audio/mpeg">
                     </audio>
                     <audio ref="music" loop v-else>
                         <source :src="audioUrl" type="audio/mpeg">
-                    </audio>
+                    </audio> -->
                 </el-col>
                 <el-col :span="4" style="text-align: right;">
                     <div style="font-size: 20px;color:#606266;margin-top: 5px">
