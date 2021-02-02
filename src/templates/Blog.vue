@@ -42,6 +42,9 @@ query ($id: ID!) {
     import { mapGetters } from 'vuex'
     // import GistApi from '@/api/gist'
     export default {
+       metaInfo: {
+        title: '博客详情'
+      },
         data() {
             return {
                 blog: {

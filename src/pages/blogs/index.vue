@@ -77,6 +77,9 @@ query ($page: Int) {
     import { mapGetters } from 'vuex'
     // import GistApi from '@/api/gist'
     export default {
+      metaInfo: {
+        title: '博客列表'
+      },
       components: {
         Pager
       },

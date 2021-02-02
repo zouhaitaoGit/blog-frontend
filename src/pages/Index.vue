@@ -42,6 +42,9 @@ query {
   const md = new MarkDownIt()
     // import GistApi from '@/api/gist'd
     export default {
+      metaInfo: {
+        title: '最新动态'
+      },
         data() {
             return {
                 query: {
